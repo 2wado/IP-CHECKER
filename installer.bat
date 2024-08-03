@@ -9,7 +9,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM Install the required packages
-pip install requests colorama
+pip install -r requirements.txt
 
 REM Check if installation was successful
 if %ERRORLEVEL% NEQ 0 (
