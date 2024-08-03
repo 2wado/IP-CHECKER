@@ -1,3 +1,4 @@
 concurrent.futures
 requests
 colorama
+sockets
