@@ -9,7 +9,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM Install the required packages
-pip install -r requirements.txt
+pip install requests colorama sockets concurrent.futures
 
 REM Check if installation was successful
 if %ERRORLEVEL% NEQ 0 (
